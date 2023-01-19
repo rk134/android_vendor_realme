@@ -8,8 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/oplus/RMX3360/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
-    vendor/oplus/RMX3360/proprietary/odm/bin/hw/vendor.pixelworks.hardware.display.iris-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.display.iris-service \
-    vendor/oplus/RMX3360/proprietary/odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor/oplus/RMX3360/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/oplus/RMX3360/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -51,33 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/oplus/RMX3360/proprietary/odm/etc/init/init.st54x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.st54x.nfc.rc \
     vendor/oplus/RMX3360/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/oplus/RMX3360/proprietary/odm/etc/init/vendor.pixelworks.hardware.display.iris-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.display.iris-service.rc \
-    vendor/oplus/RMX3360/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm13.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm13_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13_low.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm14_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_low.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm15.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm15_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15_low.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm16.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm18.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm4.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm5.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm6.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm7.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm7.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm8.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm9.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/inparm/irissoft/mcfCheck_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck_low.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/oplus/RMX3360/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/oplus/RMX3360/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
     vendor/oplus/RMX3360/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
@@ -108,14 +79,14 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/oplus/RMX3360/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/oplus/RMX3360/proprietary/odm/etc/sensor.cfg:$(TARGET_COPY_OUT_ODM)/etc/sensor.cfg \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_ak0991x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_ak0991x.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_alsps.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_cct.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_cct_rear.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_icm4x6xx.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_lsm6dso.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_lsm6dso.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_mmc56x3x.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/lahaina_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_sx933x_0.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/alsps.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_alsps.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_bmi3x0_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_bmi3x0_0.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_icm4x6xx_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_icm4x6xx_0.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_lsm6ds3c_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_lsm6ds3c_0.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_mmc5603x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_mmc5603x_0.json \
+    vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_mmc56x3x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_mmc56x3x_0.json \
     vendor/oplus/RMX3360/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oplus/RMX3360/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oplus/RMX3360/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
@@ -292,22 +263,13 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-faceretouch-cn.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/liboplus_service.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_service.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/liboplus_service.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_service.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/liboplusvppfilter.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplusvppfilter.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib64/libosie_process.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libosie_stub.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirisIoctlWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisIoctlWrapper.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisPCS.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwiriscalibrate.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwiriscalibrate.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirisfeature.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisfeature.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirishalwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirishalwrapper.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirispq.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirispq.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirisservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisservice.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwirissoft.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirissoft.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libpwsoftirisPCS.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwsoftirisPCS.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libsnapdragoncolor-pxlw.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnapdragoncolor-pxlw.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libsnpe_dsp_domains_v3.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v3.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libsnpe_htp.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_htp.so \
@@ -559,7 +521,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/oplus/RMX3360/proprietary/vendor/etc/media_profiles_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v1.xml \
     vendor/oplus/RMX3360/proprietary/vendor/etc/media_yupik_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v1/video_system_specs.json \
-    vendor/oplus/RMX3360/proprietary/vendor/etc/oplus_Widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_Widevine_licenses.pfm \
     vendor/oplus/RMX3360/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
     vendor/oplus/RMX3360/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/oplus/RMX3360/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
@@ -598,8 +559,36 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/oplus/RMX3360/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/oplus/RMX3360/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_bu52053nvx_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_default_sensors.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_dynamic_sensors.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_idp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_idp_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_idp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_idp_lsm6dst_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_idp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_idp_lsm6dst_1.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_irq.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_lps22hh_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_lsm6dst_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_lsm6dst_1.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_power_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_lsm6dst_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_sx932x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_tmd3702_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_sx932x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_tmd3702_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_vertigo_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_vertigo_lsm6dst_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_vertigo_lsm6dst_1.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/kodiak_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/kodiak_qrd_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_ak991x_1.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/kodiak_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_tmd3702_0.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_default_sensors.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_dynamic_sensors.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_hhg_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_ak991x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_hhg_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_lsm6dst_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_hhg_sx9302x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_sx9302x_0.json \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_hhg_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_tmd3702_0.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_irq.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/lahaina_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_power_0.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
@@ -638,7 +627,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/oplus/RMX3360/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oplus/RMX3360/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
@@ -862,8 +850,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libsuper_res_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsuper_res_networks.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_ais_networks.so \
@@ -1181,8 +1167,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libpwirisfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisfeature.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libpwirishalwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirishalwrapper.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libqc2vppfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqc2vppfilter.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
@@ -1250,11 +1234,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-manager.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsnapdragoncolor-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-qdcm.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_api.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_api.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
@@ -1263,7 +1245,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
@@ -1298,8 +1279,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiril-utils.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/qtiwakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiwakelock.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
@@ -1418,20 +1397,3 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so
-
-PRODUCT_PACKAGES += \
-    libfastcvopt \
-    libthermalclient \
-    CACertService \
-    CneApp \
-    ConnectionSecurityService \
-    IWlanService \
-    QCC-TR-UI \
-    TimeService \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.limits@1.0-service \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_oplus_fingerprint \
-    vendor.pixelworks.hardware.display.iris-service \
-    vendor.pixelworks.hardware.feature.irisfeature-service
