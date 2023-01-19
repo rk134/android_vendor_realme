@@ -1397,3 +1397,18 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so
+
+PRODUCT_PACKAGES += \
+    libfastcvopt \
+    libthermalclient \
+    CACertService \
+    CneApp \
+    ConnectionSecurityService \
+    IWlanService \
+    QCC-TR-UI \
+    TimeService \
+    vendor.qti.diag.hal.service \
+    vendor.qti.gnss@4.0-service \
+    vendor.qti.hardware.limits@1.0-service \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_oplus_fingerprint
