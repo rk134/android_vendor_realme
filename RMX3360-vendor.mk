@@ -91,9 +91,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oplus/RMX3360/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
     vendor/oplus/RMX3360/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
-    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/20820/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/FW_S3908_SAMSUNG.img \
-    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img \
-    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img \
+    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21603/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21603/FW_FT3518_SAMSUNG.img \
+    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img \
+    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img \
+    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21643/FW_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21643/FW_NF_ILI7807S_DSJM.img \
+    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21643/FW_NF_ILI7807S_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21643/FW_NF_ILI7807S_DSJM_FAE.img \
+    vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21643/LIMIT_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21643/LIMIT_NF_ILI7807S_DSJM.img \
     vendor/oplus/RMX3360/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
