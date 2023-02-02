@@ -7,7 +7,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
 	name: "libfastcvopt",
-	owner: "oplus",
+	owner: "realme",
 	strip: {
 		none: true,
 	},
@@ -27,7 +27,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libthermalclient",
-	owner: "oplus",
+	owner: "realme",
 	strip: {
 		none: true,
 	},
@@ -47,7 +47,7 @@ cc_prebuilt_library_shared {
 
 android_app_import {
 	name: "CACertService",
-	owner: "oplus",
+	owner: "realme",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -58,7 +58,7 @@ android_app_import {
 
 android_app_import {
 	name: "CneApp",
-	owner: "oplus",
+	owner: "realme",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -69,7 +69,7 @@ android_app_import {
 
 android_app_import {
 	name: "ConnectionSecurityService",
-	owner: "oplus",
+	owner: "realme",
 	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -80,7 +80,7 @@ android_app_import {
 
 android_app_import {
 	name: "IWlanService",
-	owner: "oplus",
+	owner: "realme",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -91,7 +91,7 @@ android_app_import {
 
 android_app_import {
 	name: "QCC-TR-UI",
-	owner: "oplus",
+	owner: "realme",
 	apk: "proprietary/vendor/app/QCC-TR-UI/QCC-TR-UI.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -102,7 +102,7 @@ android_app_import {
 
 android_app_import {
 	name: "TimeService",
-	owner: "oplus",
+	owner: "realme",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -113,7 +113,7 @@ android_app_import {
 
 prebuilt_etc_xml {
 	name: "vendor.qti.diag.hal.service",
-	owner: "oplus",
+	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -122,7 +122,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "vendor.qti.gnss@4.0-service",
-	owner: "oplus",
+	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -131,7 +131,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "vendor.qti.hardware.limits@1.0-service",
-	owner: "oplus",
+	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -140,7 +140,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.3-service.widevine",
-	owner: "oplus",
+	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -149,7 +149,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "manifest_oplus_fingerprint",
-	owner: "oplus",
+	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
